@@ -571,8 +571,12 @@ button#open-button {
 .intro p {
 	margin:50px 0 0;
 }
+#extensions img {
+    border: 3px solid #d2ac3d;
+    padding: 5px;
+}
 h1.arrow {
-	font-size: 16px;
+	font-size: 21px;
 	text-transform:uppercase;
 	color:#353535;
 	letter-spacing: 4px;
@@ -1363,7 +1367,16 @@ ul.slides li {
     width: 70px;
     height: auto;
 }
-
+kbd { 
+	background-color: #fdfdfe !important;
+    border: 1px solid #d2ac3d;
+    border-radius: .2rem;
+    box-shadow: inset 0 -2px 0 #d2ac3d  !important;
+    color: inherit !important;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 21px;
+    padding: .15rem .35rem .2rem;
+}
 
 
 
