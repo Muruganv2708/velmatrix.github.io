@@ -574,6 +574,7 @@ button#open-button {
 #extensions img {
     border: 3px solid #d2ac3d;
     padding: 5px;
+    width:250px;
 }
 h1.arrow {
 	font-size: 21px;
