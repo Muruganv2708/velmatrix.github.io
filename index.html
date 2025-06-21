@@ -550,7 +550,7 @@
 			<div class="row">
 			  <!-- Google Maps (Change your Settings below) -->
 			  <div class="col-md-6">
-			    <div id="googlemaps"></div>
+			    <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=chellathamman%20kovil%20street,%20managiri%20Madurai+(Velmatrix)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.acadoo.de/leistungen/ghostwriter-doktorarbeit/'>Dissertation Unterstützung</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=8f7607e6bbd6d4682a8c5705b0cb40cc860c03c7'></script>
 			  </div>
 			  <!-- Contact Form -->
 			  <div class="col-md-6 contact">
@@ -644,37 +644,6 @@
 	<script src="js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
-	<!-- GOOGLE MAPS DATA -->
-    <script type="text/javascript">
-    // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-    
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 15,
-                
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googlemaps');
-
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-	
-    </script>
 	
 	<!-- TEXT ROTATOR SETTINGS -->
     <script type="text/javascript">
